@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 87</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="fabric.js"></script>
+    <style>
+        body {
+            background-image: url("avenger_bg.jpg");
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .change_size {
+            font-size: 25px;
+        }
+
+        #my_canvas {
+            background-color: white;
+            border-radius: 20px;
+            border: ridge;
+            border-width: 10px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1 class="btn btn-primary change_size">SUPERHEROES</h1>
+        <br><br>
+
+    <span class="btn btn-warning change_size">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    Current Width = <span id="width">30</span>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    Current Height = <span id="height">30</span>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </span>
+    <br><br><br>
+    <canvas id="my_canvas" width="1100" height="500"></canvas>
+    </center>
+    <script src="main.js"></script>
+    
+</body>
+</html>
